@@ -135,6 +135,6 @@ RandomRegency(random_province_selected)
 ```
 randProvince := jabufaker.RandomProvince()
 
-randRegency := RandomRegency(randProvince)
+randRegency := jabufaker.RandomRegency(randProvince)
 fmt.Println(randRegency)
 ```
