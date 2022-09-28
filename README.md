@@ -46,7 +46,7 @@ RandomInt(min, max)
 
 **Example:**
 ```
-randInt := RandomInt(0, 100)
+randInt := jabufaker.RandomInt(0, 100)
 fmt.Println(randInt)
 ```
 
@@ -59,7 +59,7 @@ RandomString(n)
 
 **Example:**
 ```
-randString := RandomString(10)
+randString := jabufaker.RandomString(10)
 fmt.Println(randString)
 ```
 
@@ -70,7 +70,7 @@ RandomPerson()
 ```
 **Example:**
 ```
-randPerson := RandomPerson()
+randPerson := jabufaker.RandomPerson()
 fmt.Println(randPerson)
 ```
 
@@ -82,7 +82,7 @@ RandomMoney()
 
 **Example:**
 ```
-randMoney := RandomMoney()
+randMoney := jabufaker.RandomMoney()
 fmt.Println(randMoney)
 ```
 
@@ -94,7 +94,7 @@ This function is used to generate a random currency. Currently only available ID
 
 **Example:**
 ```
-randCurrencies := RandomCurrency()
+randCurrencies := jabufaker.RandomCurrency()
 fmt.Println(randCurrencies)
 ```
 
@@ -107,7 +107,7 @@ RandomEmail()
 
 **Example:**
 ```
-randEmail := RandomEmail()
+randEmail := jabufaker.RandomEmail()
 fmt.Println(randEmail)
 ```
 
@@ -120,7 +120,7 @@ RandomProvince()
 
 **Example:**
 ```
-randProvince := RandomProvince()
+randProvince := jabufaker.RandomProvince()
 fmt.Println(randProvince)
 ```
 ## Generate random regencies
@@ -133,7 +133,7 @@ RandomRegency(random_province_selected)
 
 **Example:**
 ```
-randProvince := RandomProvince()
+randProvince := jabufaker.RandomProvince()
 
 randRegency := RandomRegency(randProvince)
 fmt.Println(randRegency)
