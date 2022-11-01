@@ -66,7 +66,21 @@ func RandomCurrency() string {
 
 // RandomEmail generates a random email
 func RandomEmail() string {
-	email := fmt.Sprintf("%s@test.com", strings.ToLower(RandomPerson()))
+	var randInt int64
+	// random int
+	switch rand.Intn(3) {
+	case 1:
+		randInt = RandomInt(1001, 2000)
+	case 2:
+		randInt = RandomInt(2001, 3000)
+	default:
+		randInt = RandomInt(1, 1000)
+	}
+
+	// Random person
+	person := strings.ToLower(RandomPerson())
+
+	email := fmt.Sprintf("%s%d@test.com", person, randInt)
 	return email
 }
 

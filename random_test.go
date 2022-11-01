@@ -1,6 +1,7 @@
 package jabufaker
 
 import (
+	"fmt"
 	"reflect"
 	"strings"
 	"testing"
@@ -47,7 +48,7 @@ func TestRandomEmail(t *testing.T) {
 	randEmail := RandomEmail()
 	removeDomain := strings.ReplaceAll(randEmail, "@test.com", "")
 	containDomain := strings.Contains(randEmail, "@test.com")
-
+	fmt.Println(randEmail)
 	assert.NotEmpty(t, removeDomain)                              // not empty before @test.com
 	assert.True(t, containDomain)                                 // must be contain @test.com
 	assert.Equal(t, "string", reflect.TypeOf(randEmail).String()) // Type must be `string`
