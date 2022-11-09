@@ -7,7 +7,7 @@ The beginning of code in this package, obtained when followed a course udemy wit
 
 You will find beginning the code this package in there. And me added some code to generate some data I needed. You also can use and contribute by adding some code you need to this package.
 
-Criticism and suggestions about this package are very useful for me. My contacts can be found in the [overview](https://github.com/rizkydarmawan-letenk) section of this repository.
+Criticism and suggestions about this package are very useful for me. My contacts can be found in the [overview](https://github.com/letenk) section of this repository.
 
 # Contents
 * [Jabufaker](#jabufaker-for-generating-a-fake-sample-data)
@@ -27,12 +27,12 @@ Criticism and suggestions about this package are very useful for me. My contacts
 To install jabufaker package, follow these steps:
 1. You can use the below Go command:
 ```
-go get -u github.com/rizkydarmawan-letenk/jabufaker
+go get -u github.com/letenk/jabufaker
 ```
 
 2. Import it in your code:
 ```
-import "github.com/rizkydarmawan-letenk/jabufaker"
+import "github.com/letenk/jabufaker"
 ```
 
 # Function to use
